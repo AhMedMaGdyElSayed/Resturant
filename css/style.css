@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('../images/gilberte_8975ccbb-895c-44c0-9d22-7510c961716e_20190627_gilberte_rostisserie_web_005.jpg.webp');
+    min-height: 693px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .container{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 693px;
+    color: #fff;
+    position: relative;
+}
+
+header .container .btns .blk{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header .container .btns .blk:hover{
+    background-color: #ccc;
+    color: rgba(0, 0, 0, 0.7);
+    transition: 1s;
+}
+
+header .container h1{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 80px;
+    font-family: cursive;
+    letter-spacing: 15px;
+    font-weight: 100;
+}
+
+header .container .address{
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    padding: 0 30px;
+    font-family: "Raleway";
+}
+
+header .container .address p{
+    padding: 20px;
+}
+
+header .container .address p:nth-child(2){
+    padding-bottom: 0;
+}
+
+header .container .address p a{
+    color: #fff;
+}
+
+#menu{
+    display: none;
+    z-index: 2;
+}
+
+#menu .blkcont{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+#menu .blkcont h1{
+    display: inline;
+}
+
+#menu .blkcont span{
+    float: right;
+    padding: 10px 20px;
+    position: relative;
+    top: -5px;
+}
+
+#menu .blkcont span:hover{
+    background-color: #ccc;
+    color: rgba(0, 0, 0, 0.7);
+    transition: 1s;   
+}
+
+#menu .cont{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+#contact{
+    display: none;
+}
+
+#contact .blkcont{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+#contact .blkcont h1{
+    display: inline;
+}
+
+#contact .blkcont span{
+    float: right;
+    padding: 10px 20px;
+    position: relative;
+    top: -5px;
+}
+
+#contact .blkcont span:hover{
+    background-color: #ccc;
+    color: rgba(0, 0, 0, 0.7);
+    transition: 1s;   
+}
+
+#contact .cont{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+#contact .cont > p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#contact .cont form input{
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}
+
+#contact .cont form button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding-left: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
